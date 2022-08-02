@@ -245,15 +245,15 @@ def login():
 	print(f"""               
 			 {R}[WARNING]{W}
 
-   1. Your account can be banned if you use this
-   2. After successfully logging in your account will
-      automatically comment on the author
-      profile photo and react
-   3. Don't use this for crime
-   4. Everything the user does is not the responsibility
-      of the author
-   5. By using this the user is considered to
-      understand and comply with the above provisions
+   1. Akun Anda dapat diblokir jika Anda menggunakan ini
+   2. Setelah berhasil login akun Anda akan
+      otomatis mengomentari penulis
+      foto profil dan reaksi
+   3. Jangan gunakan ini untuk kejahatan
+   4. Segala sesuatu yang dilakukan pengguna bukanlah tanggung jawab
+      dari penulis
+   5. Dengan menggunakan ini pengguna dianggap
+      memahami dan mematuhi ketentuan di atas
       """)
 
 	cookies = input_("Your Facebook Cookies: ")
@@ -271,7 +271,7 @@ def login():
 		print(f"{INF}Successully Login!")
 		enter()
 	else:
-		print(ERR + "Cookies Not Valid!")
+		print(ERR + "Cookies Tidak Valid!")
 		enter()
 
 @updateFunc
